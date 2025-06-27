@@ -27,7 +27,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 
     @Override
     public Employee findEmployeeById(Long id) {
-        var key = "emp_" + id;
+        String key = "emp_" + id; // ✅ replaced var with String
         final ValueOperations<String, Employee> operations = redisTemplate.opsForValue();
         final boolean hasKey = redisTemplate.hasKey(key);
         if (hasKey) {
