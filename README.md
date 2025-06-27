@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Spring-Mysql-Redis
 Spring Boot Mysql Redis REST API Cache example
 
@@ -71,3 +72,7 @@ curl --location --request GET 'http://localhost:8080/api/employees/4'
 ### Swagger-ui REST API Reference & Test
 - http://localhost:8080/swagger-ui.html
 - Response Content Type : application/json
+=======
+# redisprinql_stack
+Java web application based on Spring, Mysql, and Redis.
+>>>>>>> 68e306eb34ce07f9f265fd3af736c0f732a18549
